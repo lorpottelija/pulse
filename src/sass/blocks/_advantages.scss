@@ -16,12 +16,12 @@
         margin-top: 60px;
     }
     &__items {
-        width: 950px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
     &__item {
-        max-width: 277px;
+        width: 277px;
         align-items: center;
         &__title {
             font-weight: 700;

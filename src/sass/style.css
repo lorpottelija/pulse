@@ -1,3 +1,22 @@
+@media (max-width: 991px) {
+  .promo {
+    padding: 21px 20px 93px 20px !important;
+    background: url(../../img/bg.png) left center/cover no-repeat !important;
+  }
+}
+@media (max-width: 767px) {
+  .header__phone {
+    font-size: 17px !important;
+  }
+}
+@media (max-width: 575px) {
+  .header {
+    display: block;
+  }
+  .promo {
+    background: url(../../img/bg.png) right center/cover no-repeat !important;
+  }
+}
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
 }
@@ -126,5 +145,80 @@
   height: 54px;
   font-size: 16px;
   margin-top: 65px;
+}
+
+.advantages {
+  background-color: #f6f6f6;
+  min-height: 473px;
+  padding: 73px 0 65px 0;
+}
+.advantages__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  color: #0d0d0d;
+}
+.advantages__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.advantages__items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.advantages__item {
+  width: 277px;
+  align-items: center;
+}
+.advantages__item__title {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #0d0d0d;
+  margin-top: 35px;
+}
+.advantages__item__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #0d0d0d;
+  margin-top: 20px;
+}
+.advantages__item__text span {
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #f00;
+}
+.advantages img {
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 991px) {
+  .promo {
+    padding: 21px 20px 93px 20px !important;
+    background: url(../../img/bg.png) left center/cover no-repeat !important;
+  }
+}
+@media (max-width: 767px) {
+  .header__phone {
+    font-size: 17px !important;
+  }
+}
+@media (max-width: 575px) {
+  .header {
+    display: block;
+  }
+  .promo {
+    background: url(../../img/bg.png) right center/cover no-repeat !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
