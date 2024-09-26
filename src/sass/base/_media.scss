@@ -25,11 +25,19 @@
         }
         &__official {
             margin-top: 20px;
-            text-align: right;
+            text-align: center;
+        }
+        &__contacts {
+            align-items: center;
         }
     }
     .promo {
         background: url(../../img/bg.png) right (center/cover) no-repeat;
+        min-height: 450px;
+        padding: 21px 10px 21px 10px;
+        &__wrapper {
+            margin-top: 40px;
+        }
         &__header {
             font-size: 35px;
             text-align: right;
@@ -39,6 +47,7 @@
         }
         &__icons {
             width: 100%;
+            margin-top: 10px;
         }
         &__icon {
             font-size: 12px;
@@ -46,9 +55,13 @@
     }
     .button_main {
         width: 280px;
+        margin-top: 20px;
     }
     .advantages {
-        padding: 73px 10px 65px 10px;
+        padding: 30px 10px 30px 10px;
+        &__wrapper {
+            margin-top: 20px;
+        }
         &__items {
             display: block;
             margin: 0 auto;

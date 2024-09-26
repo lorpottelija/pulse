@@ -1,0 +1,31 @@
+.feed-form {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 303px;
+    &__input {
+        margin-top: 12px;
+        padding-left: 21px;
+        padding-right: 21px;
+        height: 52px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 471%;
+        color: #4b4b4b;
+        border: none;
+        border-radius: 5px;
+    }
+    &__button {
+        width: 100%;
+        margin-top: 17px;
+        height: 58px;
+        background-color: #c70101;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+}
