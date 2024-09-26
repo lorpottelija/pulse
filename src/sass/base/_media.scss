@@ -3,6 +3,9 @@
         padding: 21px 10px 93px 10px;
         background: url(../../img/bg.png) left (center/cover) no-repeat;
     }
+    .consultation {
+        padding: 100px 0 108px 10px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -76,5 +79,18 @@
                 margin-top: 5px;
             }
         }
+    }
+    .consultation {
+        padding: 30px 10px 30px 10px;
+        &__title {
+            font-size: 30px;
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 36px auto;
     }
 }
